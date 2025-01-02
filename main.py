@@ -4,7 +4,7 @@ import sys
 sys.setrecursionlimit(10**6)
 
 def make_commit(days: int):
-    if days < 902:
+    if days < 1:
         # Push
         return os.system('git push')
     else:
@@ -23,4 +23,4 @@ def make_commit(days: int):
         
     
 
-make_commit(903) #2498
+make_commit(365) #2498
